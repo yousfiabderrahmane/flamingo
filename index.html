@@ -4,8 +4,134 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Third</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Uncial+Antiqua&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <!--header-->
+    <section id="header">
+      <div class="container">
+        <img class="logo" src="images/images/logo.png" alt="" />
+        <div class="header-text">
+          <h1>
+            The purpose is <br />
+            to teach, bring learning to people
+          </h1>
+          <span class="square"></span>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+            quaerat soluta unde error eius in. Aspernatur fuga ex animi
+            deleniti?
+          </p>
+          <button class="common-btn">Read More</button>
+          <div class="line">
+            <span class="line1"></span><br />
+            <span class="line2"></span><br />
+            <span class="line3"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--navbar-->
+    <nav id="sideNav">
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#">FEATURES</a></li>
+        <li><a href="#">COURSES</a></li>
+        <li><a href="#">OFFER</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </nav>
+    <img id="menuBtn" src="images/images/menu.png" alt="" />
+    <img id="menuBtn2" src="images/images/menu.png" alt="" />
+    <!--about-->
+    <section id="about">
+      <div class="about-left">
+        <img src="images/images/about.png" alt="" />
+      </div>
+      <div class="about-right">
+        <div class="about-text">
+          <h1>About Us</h1>
+          <span class="square"></span>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores ea
+            voluptatibus dolorem accusamus, rerum nam quisquam consequuntur,
+            blanditiis laudantium quaerat dolor? A mollitia beatae eum
+            reiciendis amet dolore aut exercitationem!
+          </p>
+          <br />
+          <br />
+          <div class="line">
+            <span class="line1"></span><br />
+            <span class="line2"></span><br />
+            <span class="line3"></span>
+          </div>
+          <h2>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem,
+            nam?
+          </h2>
+          <h3>---Yousfi Abderrahmane</h3>
+        </div>
+      </div>
+    </section>
+    <!--features-->
+    <section id="features">
+      <div class="feature-row">
+        <div class="feature-col">
+          <img src="/images/images/pic-1.png" alt="" />
+          <h4>Learn Anywhere</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores.
+          </p>
+        </div>
+        <div class="feature-col">
+          <img src="/images/images/pic-2.png" alt="" />
+          <h4>Learn Anywhere</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores.
+          </p>
+        </div>
+        <div class="feature-col">
+          <img src="/images/images/pic-3.png" alt="" />
+          <h4>Learn Anywhere</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores.
+          </p>
+        </div>
+      </div>
+      <div class="feature-btn">
+        <div class="line">
+          <span class="line1"></span><br />
+          <span class="line2"></span><br />
+          <span class="line3"></span>
+        </div>
+        <button class="common-btn">Start Free Trial</button>
+      </div>
+    </section>
+
+    <script>
+      var menuBtn = document.getElementById("menuBtn");
+      var menuBtn2 = document.getElementById("menuBtn2");
+      var sideNav = document.getElementById("sideNav");
+
+      sideNav.style.right = "-250px";
+      menuBtn.onclick = function () {
+        sideNav.style.right = "0";
+        menuBtn.style.display = "none";
+        menuBtn2.style.display = "inline-block";
+      };
+      menuBtn2.onclick = function () {
+        sideNav.style.right = "-250px";
+        menuBtn2.style.display = "none";
+        menuBtn.style.display = "inline-block";
+      };
+    </script>
+  </body>
 </html>
