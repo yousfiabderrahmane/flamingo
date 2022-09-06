@@ -183,13 +183,10 @@ nav ul li a {
   cursor: pointer;
   border-radius: 5px;
   border: 2px solid transparent;
-  filter: brightness(70%);
   transition: all 0.25s;
   animation: menu;
 }
-#menuBtn:hover {
-  filter: brightness(100%);
-}
+
 @keyframes menu {
 }
 #menuBtn2 {
@@ -472,6 +469,7 @@ hr {
     gap: 0px;
   }
   .top-section h2 {
+    margin-left: 25px;
     font-size: 30px;
     position: relative;
     color: white;
@@ -493,13 +491,13 @@ hr {
   }
   #menuBtn {
     width: 40px;
-    right: 0;
-    top: 0;
+    right: 10px;
+    top: 10px;
   }
   #menuBtn2 {
     width: 40px;
-    right: 0;
-    top: 0;
+    right: 10px;
+    top: 10px;
   }
   .common-btn {
     padding: 10px 16px;
@@ -621,6 +619,21 @@ hr {
     100% {
       transform: translateY(0px);
     }
+  }
+  .facebook path:nth-child(1) {
+    fill: #659ec9;
+  }
+  .insta path:nth-child(1) {
+    fill: #ff697b;
+  }
+  .twitter path:nth-child(1) {
+    fill: #76ecff;
+  }
+  .youtube path:nth-child(2) {
+    fill: #ff697b;
+  }
+  .wheel {
+    display: none;
   }
 }
 svg path {
