@@ -22,7 +22,7 @@ html {
 .top-section h2 {
   font-size: 50px;
   position: relative;
-  color: white;
+  color: transparent;
   /* -webkit-text-stroke: 2px #f67c92; */
 }
 .top-section h2::before {
@@ -92,6 +92,7 @@ p {
   padding: 18px 40px;
   background: transparent;
   outline: none;
+  color: black;
   /* border-radius: 5px; */
   border: 2px solid #f67c92;
   font-weight: bold;
@@ -469,10 +470,10 @@ hr {
     gap: 0px;
   }
   .top-section h2 {
-    margin-left: 25px;
+    /* margin-left: 25px; */
     font-size: 30px;
     position: relative;
-    color: white;
+    color: transparent;
   }
   .container {
     margin-right: 50px;
