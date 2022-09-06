@@ -507,6 +507,7 @@ hr {
   .social-icons svg {
     width: 30px;
     margin: 15px auto;
+    margin-right: 25px;
   }
   .about-left,
   .about-right {
