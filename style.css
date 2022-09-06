@@ -237,6 +237,7 @@ nav ul li a {
 /* features */
 #features {
   padding: 50px 0;
+  scroll-margin-top: 80px;
 }
 .feature-row {
   width: 80%;
@@ -258,7 +259,7 @@ nav ul li a {
     transform: translateY(0px);
   }
   50% {
-    transform: translateY(-100px);
+    transform: translateY(-70px);
   }
   100% {
     transform: translateY(0px);
